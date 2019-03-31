@@ -5,12 +5,9 @@ angular.module('appConfigCtrl', []).controller(
         '$http',
         function($scope, $http) {
             /* server base URL for endpoints */
-            $scope.title = "CUSTOM TITLE";
+            $scope.title = "AngularJS Seed";
 
-            $scope.data = {
-                description: "This_is_a_description_with_removed_underscores",
-                field: "This is a field"
-            };
+            $scope.data = {};
 
             $scope.request = {
                 method: 'GET',
