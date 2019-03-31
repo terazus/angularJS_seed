@@ -1,4 +1,6 @@
-<div ng-repeat="(itemKey, itemVal) in content_output">
-    <label>{{itemKey}} : </label>
-    <span>{{itemVal | removeUnderscore}}</span>
+<div>
+    <div ng-repeat="(itemKey, itemVal) in content_output">
+        <label>{{itemKey}} : </label>
+        <span>{{itemVal}}</span>
+    </div>
 </div>
