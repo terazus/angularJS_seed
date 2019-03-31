@@ -1,6 +1,6 @@
 (function() {
 
-    let my_app = angular.module('FAIRmetricsApp',
+    let my_app = angular.module('angularSeedApp',
         [
             'ngRoute',
             'ngMaterial',
