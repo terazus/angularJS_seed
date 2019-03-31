@@ -4,14 +4,13 @@ angular.module('appConfigCtrl', []).controller(
         '$scope',
         '$http',
         function($scope, $http) {
-            /* server base URL for endpoints */
+            let endpoint = "https://jsonplaceholder.typicode.com/todos/1";
             $scope.title = "AngularJS Seed";
-
             $scope.data = {};
 
             $scope.request = {
                 method: 'GET',
-                url: null,
+                url: endpoint,
                 headers: {
                     'Accept': "application/json",
                 },
